@@ -19,10 +19,14 @@ git clone https://github.com/bitfinexcom/bitfinex-api-py.git
 cd bitfinex-api-py
 ```
 
+Install the dependencies:
+```sh
+python3 setup.py install
+```
+
 Or via pip3:
 ```sh
 pip3 install -r requirements.txt
-python3 setup.py install
 ```
 
 Run the trades/candles example:
